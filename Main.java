@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise08_29 {
+public class Main {
 
     /** Return true if the two matrices have the same dimensions and contents */
     public static boolean equals(int[][] m1, int[][] m2) {

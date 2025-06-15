@@ -41,5 +41,20 @@ public class Exercise08_29 {
         for (int i = 0; i < 3; i++)
             for (int j = 0; j < 3; j++)
                 m2[i][j] = input.nextInt();
-        
-                
+
+        // Print both matrices and the comparison result
+        System.out.print("m1 (a 3 by 3 matrix) row by row: ");
+        printMatrix(m1);
+
+        System.out.print("m2 (a 3 by 3 matrix) row by row: ");
+        printMatrix(m2);
+
+        if (equals(m1, m2)) {
+            System.out.println("The two arrays are identical");
+        } else {
+            System.out.println("The two arrays are not identical");
+        }
+
+        input.close();
+    }
+}        
